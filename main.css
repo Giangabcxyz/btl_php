@@ -1,0 +1,133 @@
+.header{
+    background-color:rgb(16, 131, 16);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 1px 2px;
+}
+.navbar-down{
+   display: flex;
+   justify-content: space-between;
+}
+.navbar-colums-details{
+     display: flex;
+}
+.navbar-colums-details>li{
+    border-right: 1px solid gainsboro;
+    list-style: none;
+    line-height: 50px;
+}
+.navbar-colums-details>li>a{
+    text-decoration: none;
+    padding: 0 25px;
+    display: block;
+    color: white;
+    
+}
+
+.navbar-colums-details>li>a:hover{
+    background-color: rgb(249, 178, 0);
+    opacity: 0.9;
+}
+.navbar-funtion{
+    display: flex;
+}
+.navbar-funtion>li{
+    list-style: none;
+    line-height: 50px;
+    
+}
+.navbar-funtion>li>a{
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    color: white;   
+}
+.navbar-funtion>li>a:hover,.ruler:hover{
+    opacity: 0.8;
+}
+.ruler{
+    cursor: pointer;
+    width: 1px;
+    height: 26px;
+    background-color: aliceblue;
+    margin-top: 12px;
+}
+
+/* =================================================== */
+/* contain */
+.conatainer{
+    margin-top: 50px;
+    
+}
+.contain-conten-show{
+    
+    text-align: center;
+    margin-top: 80px;
+}
+.form-input{
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.table-input,th,td{
+    padding: 0 10px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+}
+.ip{
+    padding: 8px;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 0 6px;
+}
+.add{
+    background-color: rgb(25, 193, 25);
+    border: none;
+    color: aliceblue;
+    padding: 8px 14px;
+    border-radius: 5px;
+
+}
+.add:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+/* search */
+.box-search{
+    
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 20px;
+}
+.box-search>i{
+    border: 1px solid;
+    
+    padding: 10px 10px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+.box-search>input{
+    width: 60%;
+    margin-left: 18%;
+    border-radius: none;
+    
+}
+.conten-show-sp>table,th,td{
+
+    padding: 0 10px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    
+}
+/* ================================================================================= */
+/* nhan vien  */

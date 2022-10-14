@@ -1,0 +1,434 @@
+.header-nkh{
+    background-color:rgb(16, 131, 16);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar-down-nkh{
+   display: flex;
+   justify-content: space-between;
+}
+.navbar-colums-details-nkh{
+     display: flex;
+}
+.navbar-colums-details-nkh>li{
+    border-right: 1px solid gainsboro;
+    list-style: none;
+    line-height: 50px;
+}
+.navbar-colums-details-nkh>li>a{
+    text-decoration: none;
+    padding: 0 25px;
+    display: block;
+    color: white;
+    
+}
+
+.navbar-colums-details-nkh>li>a:hover{
+    background-color: rgb(249, 178, 0);
+    opacity: 0.9;
+}
+.navbar-funtion-nkh{
+    display: flex;
+}
+.navbar-funtion-nkh>li{
+    list-style: none;
+    line-height: 50px;
+    
+}
+.navbar-funtion-nkh>li>a{
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    color: white;   
+}
+.navbar-funtion-nkh>li>a:hover,.ruler:hover{
+    opacity: 0.8;
+}
+.ruler-nkh{
+    cursor: pointer;
+    width: 1px;
+    height: 26px;
+    background-color: aliceblue;
+    margin-top: 12px;
+}
+
+/* =================================================== */
+/* contain */
+.conatainer-nkh{
+    margin-top: 50px;
+    
+}
+.contain-conten-show-nkh{
+    text-align: center;
+    margin-top: 80px;
+}
+.form-input-nkh{
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.table-input-nkh,th,td{
+    padding: 0 10px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+}
+.ip-nkh{
+    padding: 8px;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 0 6px;
+}
+.add-nkh{
+    background-color: rgb(25, 193, 25);
+    border: none;
+    color: aliceblue;
+    padding: 8px 14px;
+    border-radius: 5px;
+
+}
+.add-nkh:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+/* search */
+.box-search-nkh{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 20px;
+}
+.box-search-nkh>i{
+    border: 1px solid;
+    
+    padding: 10px 10px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+.box-search-nkh>input{
+    width: 60%;
+    margin-left: 18%;
+    border-radius: none;
+    
+}
+.conten-show-sp-nkh>table,th,td{
+   
+    padding: 0 10px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    
+}
+
+/* ===================================================================== */
+/* nhan vien */
+.header-nvi{
+    background-color:rgb(16, 131, 16);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar-down-nvi{
+   display: flex;
+   justify-content: space-between;
+}
+.navbar-colums-details-nvi{
+     display: flex;
+}
+.navbar-colums-details-nvi>li{
+    border-right: 1px solid gainsboro;
+    list-style: none;
+    line-height: 50px;
+}
+.navbar-colums-details-nvi>li>a{
+    text-decoration: none;
+    padding: 0 25px;
+    display: block;
+    color: white;
+    
+}
+
+.navbar-colums-details-nvi>li>a:hover{
+    background-color: rgb(249, 178, 0);
+    opacity: 0.9;
+}
+.navbar-funtion-nvi{
+    display: flex;
+}
+.navbar-funtion-nvi>li{
+    list-style: none;
+    line-height: 50px;
+    
+}
+.navbar-funtion-nvi>li>a{
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    color: white;   
+}
+.navbar-funtion-nvi>li>a:hover,.ruler:hover{
+    opacity: 0.8;
+}
+.ruler-nvi{
+    cursor: pointer;
+    width: 1px;
+    height: 26px;
+    background-color: aliceblue;
+    margin-top: 12px;
+}
+
+/* =================================================== */
+/* contain */
+.conatainer-nvi{
+    margin-top: 50px;
+    
+}
+.contain-conten-show-nvi{
+    text-align: center;
+    margin-top: 80px;
+}
+.form-input-nvi{
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.table-input-nvi,th,td{
+    padding: 0 10px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+}
+.ip-nvi{
+    padding: 8px;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 0 6px;
+}
+.add-nvi{
+    background-color: rgb(25, 193, 25);
+    border: none;
+    color: aliceblue;
+    padding: 8px 14px;
+    border-radius: 5px;
+
+}
+.add-nvi:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+/* search */
+.box-search-nvi{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 20px;
+}
+.box-search-nvi>i{
+    border: 1px solid;
+    
+    padding: 10px 10px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+.box-search-nvi>input{
+    width: 60%;
+    margin-left: 18%;
+    border-radius: none;
+    
+}
+.conten-show-sp-nvi>table,th,td{
+   
+    padding: 0 10px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    
+}
+/* ======================================================== */
+/* don hang  */
+.header-dhg{
+    background-color:rgb(16, 131, 16);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar-down-dhg{
+   display: flex;
+   justify-content: space-between;
+}
+.navbar-colums-details-dhg{
+     display: flex;
+}
+.navbar-colums-details-dhg>li{
+    border-right: 1px solid gainsboro;
+    list-style: none;
+    line-height: 50px;
+}
+.navbar-colums-details-dhg>li>a{
+    text-decoration: none;
+    padding: 0 25px;
+    display: block;
+    color: white;
+    
+}
+
+.navbar-colums-details-dhg>li>a:hover{
+    background-color: rgb(249, 178, 0);
+    opacity: 0.9;
+}
+.navbar-funtion-dhg{
+    display: flex;
+}
+.navbar-funtion-dhg>li{
+    list-style: none;
+    line-height: 50px;
+    
+}
+.navbar-funtion-dhg>li>a{
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    color: white;   
+}
+.navbar-funtion-dhg>li>a:hover,.ruler:hover{
+    opacity: 0.8;
+}
+.ruler-dhg{
+    cursor: pointer;
+    width: 1px;
+    height: 26px;
+    background-color: aliceblue;
+    margin-top: 12px;
+}
+
+/* =================================================== */
+/* contain */
+.container-dhg{
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(220, 216, 216);
+   
+    width: 100%;
+    height: 100vh;
+}
+
+.container-left-handal{
+    
+    position: fixed;
+    top: 58px;
+    left: 15px;
+    bottom: 8px;
+    width: 280px;
+    background-color: aliceblue;
+}
+.nav-handal>li{
+    margin: 5px 0px;
+     list-style: none;
+}
+.nav-handal>li>a{
+    text-decoration: none;
+    background-color: blue;
+    color: aliceblue;
+    width: 100%;
+    display: block;
+    padding: 6px 10px;
+}
+.nav-handal>li>a:hover{
+    opacity: 0.6;
+}
+.subnav-handal{
+    margin-bottom: 18px;
+}
+.subnav-handal>li{
+    width: 100%;
+    margin: 10px 0px;
+    list-style: none;
+    
+}
+.subnav-handal>li>input[type="text"]{
+    width: 90%;
+    height: 26px;
+    font-size: 1rem;
+    padding: 4px 12px;
+    margin-left: 12px;
+}
+.subnav-handal>li>input[type="checkbox"]{
+   margin-left: 12px;
+   padding: 10px 10px;
+   margin-right: 8px;
+}
+.subnav-handal>li>input[type="radio"]{
+    margin-left: 12px;
+}
+.subnav-handal>li>input[type="number"],
+.subnav-handal>li>input[type="date"]{
+    width: 82%;
+    padding: 4px 12px;
+}
+
+.subnav-handal-last>li{
+   display: flex;
+   margin-left: 12px;
+}
+.subnav-handal-last>li>input[type="number"]{
+    width: 58%;
+    margin-top: -5px;
+    margin-left: 5px;
+ }
+
+
+ /* ================= */
+ /* contain right */
+
+ .container-right-handal{
+    margin-left: 300px;
+    
+    width: 100%;
+ }
+ .right-title{
+    display: flex;
+    justify-content: space-between;
+ }
+ .title-head{
+    margin-left: 15px;
+    margin-top: 10px;
+ }
+ .title-head-misson{
+    margin-top: 15px;
+    margin-right: 20px;
+ }
+ .title-head-misson>button{
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: azure;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+ }
+ .right-handal{
+    margin-left:10px;
+    margin-top: 5px;
+ }
+.right-handal-decription{
+
+}
+
+.right-handal-decription>table{
+    background-color: aqua;
+    box-shadow: 1px 1px 1px ;
+}
